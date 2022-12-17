@@ -1,4 +1,4 @@
-Area of Square
+/*Area of Square
 easy
 Time Limit: 2 sec
 Memory Limit: 128000 kB
@@ -26,6 +26,7 @@ Sample Output:-
 
 
 Solution:
+*/
 
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
