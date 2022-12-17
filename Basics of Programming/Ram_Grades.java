@@ -1,4 +1,4 @@
-Ram Grades
+/*Ram Grades
 easy
 Time Limit: 2 sec
 Memory Limit: 128000 kB
@@ -25,13 +25,10 @@ Sample Input 2:
 
 Sample Output 2:
 50
-
-
-
-
-
-
+    
 Solution:
+*/
+
 
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
@@ -40,20 +37,12 @@ import java.util.*; // contains Collections framework
 // you can add inner classes if needed
 class Main {
     public static void main (String[] args) {
-        // Scanner sc = new Scanner(System.in);
-        // int a = sc.nextInt();
-        // int b = sc.nextInt();
-        // int c = sc.nextInt();
-        // int d = sc.nextInt();
-        // int Total = a+b+c+d;
-        // System.out.println(Total/4);
-                      // Your code here
-                      Scanner sc = new Scanner(System.in);
-                      int sub1 = sc.nextInt();
-                      int sub2 = sc.nextInt();
-                      int sub3 = sc.nextInt();
-                      int sub4 = sc.nextInt();
-                      int percentage = (sub1 + sub2 + sub3 + sub4)/4;
-                      System.out.println(percentage);
+          Scanner sc = new Scanner(System.in);
+          int sub1 = sc.nextInt();
+          int sub2 = sc.nextInt();
+          int sub3 = sc.nextInt();
+          int sub4 = sc.nextInt();
+          int percentage = (sub1 + sub2 + sub3 + sub4)/4;
+          System.out.println(percentage);
     }
 }
